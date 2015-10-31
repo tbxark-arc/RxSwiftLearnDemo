@@ -7,19 +7,31 @@
 //
 
 import UIKit
+import RxSwift
+
+func example(active:Bool,name:String,action:()->()){
+    if active{
+        print("----\(name) star ----")
+        action()
+        print("----\(name) end ----");
+    }
+}
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        rxSwiftObservableTest()
+        rxSubjectLearn()
+        rxSwiftTransforming()
+        rxSwiftFiltering()
+        rxSwiftCombing()
+        rxSwiftErrorHanding()
+        rxSwiftObservableUtilityOperators()
+        rxSwiftBooleanOperators()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
