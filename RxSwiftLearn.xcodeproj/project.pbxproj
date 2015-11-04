@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47756D828447E121A630D9B0 /* Pods_RxSwiftLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED2B2FF194C1F41BA1F15AA /* Pods_RxSwiftLearn.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		47756D828447E121A630D9B0 /* Pods_RxSwiftLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED2B2FF194C1F41BA1F15AA /* Pods_RxSwiftLearn.framework */; };
 		6AEA637E1BE30BC40012F0ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA637D1BE30BC40012F0ED /* AppDelegate.swift */; };
 		6AEA63801BE30BC40012F0ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA637F1BE30BC40012F0ED /* ViewController.swift */; };
 		6AEA63831BE30BC40012F0ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AEA63811BE30BC40012F0ED /* Main.storyboard */; };
@@ -19,6 +19,8 @@
 		6AEA63981BE36A6B0012F0ED /* RxSwiftErrorHanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA63971BE36A6B0012F0ED /* RxSwiftErrorHanding.swift */; };
 		6AEA639A1BE376900012F0ED /* RxSwiftObservableUtilityOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA63991BE376900012F0ED /* RxSwiftObservableUtilityOperators.swift */; };
 		6AEA639C1BE3790E0012F0ED /* RxSwiftBooleanOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA639B1BE3790E0012F0ED /* RxSwiftBooleanOperators.swift */; };
+		6AFE7CD21BE75CCE00429214 /* RxSwiftConnectableOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE7CD11BE75CCE00429214 /* RxSwiftConnectableOperators.swift */; };
+		6AFE7CD41BE84EF400429214 /* TKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE7CD31BE84EF400429214 /* TKWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		6AEA63971BE36A6B0012F0ED /* RxSwiftErrorHanding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSwiftErrorHanding.swift; sourceTree = "<group>"; };
 		6AEA63991BE376900012F0ED /* RxSwiftObservableUtilityOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSwiftObservableUtilityOperators.swift; sourceTree = "<group>"; };
 		6AEA639B1BE3790E0012F0ED /* RxSwiftBooleanOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSwiftBooleanOperators.swift; sourceTree = "<group>"; };
+		6AFE7CD11BE75CCE00429214 /* RxSwiftConnectableOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSwiftConnectableOperators.swift; sourceTree = "<group>"; };
+		6AFE7CD31BE84EF400429214 /* TKWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKWebView.swift; sourceTree = "<group>"; };
 		9DABB006CA5412BCA60FE0D9 /* Pods-RxSwiftLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearn/Pods-RxSwiftLearn.debug.xcconfig"; sourceTree = "<group>"; };
 		BED2B2FF194C1F41BA1F15AA /* Pods_RxSwiftLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9522ECE07F8300FB127226 /* Pods-RxSwiftLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftLearn.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftLearn/Pods-RxSwiftLearn.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,12 +96,14 @@
 			children = (
 				6AEA637D1BE30BC40012F0ED /* AppDelegate.swift */,
 				6AEA637F1BE30BC40012F0ED /* ViewController.swift */,
+				6AFE7CD31BE84EF400429214 /* TKWebView.swift */,
 				6AEA638F1BE3177C0012F0ED /* RxSwiftObservableLearn.swift */,
 				6AEA63911BE3180C0012F0ED /* RxSubjectLearn.swift */,
 				6AEA63951BE3236D0012F0ED /* RxSwiftOperation.swift */,
 				6AEA63971BE36A6B0012F0ED /* RxSwiftErrorHanding.swift */,
 				6AEA63991BE376900012F0ED /* RxSwiftObservableUtilityOperators.swift */,
 				6AEA639B1BE3790E0012F0ED /* RxSwiftBooleanOperators.swift */,
+				6AFE7CD11BE75CCE00429214 /* RxSwiftConnectableOperators.swift */,
 				6AEA63811BE30BC40012F0ED /* Main.storyboard */,
 				6AEA63841BE30BC40012F0ED /* Assets.xcassets */,
 				6AEA63861BE30BC40012F0ED /* LaunchScreen.storyboard */,
@@ -232,7 +238,9 @@
 				6AEA63801BE30BC40012F0ED /* ViewController.swift in Sources */,
 				6AEA63901BE3177C0012F0ED /* RxSwiftObservableLearn.swift in Sources */,
 				6AEA63961BE3236D0012F0ED /* RxSwiftOperation.swift in Sources */,
+				6AFE7CD41BE84EF400429214 /* TKWebView.swift in Sources */,
 				6AEA637E1BE30BC40012F0ED /* AppDelegate.swift in Sources */,
+				6AFE7CD21BE75CCE00429214 /* RxSwiftConnectableOperators.swift in Sources */,
 				6AEA63921BE3180C0012F0ED /* RxSubjectLearn.swift in Sources */,
 				6AEA639C1BE3790E0012F0ED /* RxSwiftBooleanOperators.swift in Sources */,
 				6AEA639A1BE376900012F0ED /* RxSwiftObservableUtilityOperators.swift in Sources */,

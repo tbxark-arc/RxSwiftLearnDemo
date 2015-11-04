@@ -8,6 +8,7 @@
 
 import UIKit
 import RxSwift
+import TKRubberPageControl
 
 func example(active:Bool,name:String,action:()->()){
     if active{
@@ -32,6 +33,11 @@ class ViewController: UIViewController {
         rxSwiftErrorHanding()
         rxSwiftObservableUtilityOperators()
         rxSwiftBooleanOperators()
+        rxSwiftConnectableOperators()
+        
+        
+        
+        
     }
 }
 
